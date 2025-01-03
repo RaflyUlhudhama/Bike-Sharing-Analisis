@@ -8,8 +8,8 @@ import streamlit as st
 from streamlit_folium import st_folium
 
 # Memuat dataset
-day_data_path = 'day.csv'
-hour_data_path = 'hour.csv'
+day_data_path = 'dashboard/day.csv'
+hour_data_path = 'dashboard/hour.csv'
 
 day_data = pd.read_csv(day_data_path)
 hour_data = pd.read_csv(hour_data_path)
